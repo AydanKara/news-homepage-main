@@ -11,12 +11,23 @@
     text-decoration: none;
     transition: 0.2s ease;
 }
+.btn {
+    background-color: hsl(5, 85%, 63%);
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 35px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+} 
+/* ! header start */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 7%;
-    margin: 3rem 7%;
+    margin: 0 7%;
+    margin-top: 2rem;
 }
 header .navbar {
     font-size: 14px;
@@ -30,3 +41,67 @@ header .navbar a:hover {
     cursor: pointer;
     color: hsl(0, 0%, 0%);;
 }
+/* ! header end */
+
+/* ! home start */
+.home {
+    padding: 0 7%;
+    margin: 0 7%;
+    margin-top: 2rem;
+    display: flex;
+}
+.home .home-wrapper {
+    display: flex;
+    gap: 25px;
+}
+.home .home-wrapper .home-wrapper-item:nth-child(1) {
+    flex: 5;
+}
+.home .home-wrapper .home-wrapper-item:nth-child(2) {
+    flex: 3;
+}
+.home .home-wrapper-item .home-wrapper-item-img img {
+    width: 100%;
+}
+.home .home-wrapper-item-bottom {
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+}
+.home .home-wrapper-item-bottom .home-wrapper-item-bottom-left {
+    font-size: 45px;
+    font-weight: 700;
+    width: 45%;
+    line-height: 1;
+}
+.home .home-wrapper-item-bottom .home-wrapper-item-bottom-right{
+    font-size: 13px;
+    color: hsl(236, 13%, 42%);
+    line-height: 1.5;
+    width: 55%;
+}
+.home .home-wrapper .home-wrapper-item:nth-child(2) {
+    background-color: hsl(240, 100%, 5%);
+}
+.home .home-wrapper-item-description {
+    padding: 25px 20px;
+}
+.home .home-wrapper-item-description h2 {
+    color: hsl(35, 77%, 62%);
+    padding-bottom: 25px;
+}
+.home .home-wrapper-item-description .bold-paragraph {
+    color: hsl(36, 100%, 99%);
+    padding: 15px 0;
+}
+.home .home-wrapper-item-description .paragraph {
+    color: hsl(233, 8%, 79%);
+    padding-bottom: 25px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.home .home-wrapper-item-description .linie {
+    border-top: 1px solid hsl(236, 13%, 42%)
+}
+
+/* ! home end */
