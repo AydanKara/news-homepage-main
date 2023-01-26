@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7%;
+    margin: 3rem 7%;
+}
+header .navbar {
+    font-size: 14px;
+    display: flex;
+    gap: 42px;
+}
+header .navbar a {
+    color: hsl(236, 13%, 42%);
+}
+header .navbar a:hover {
+    cursor: pointer;
+    color: hsl(0, 0%, 0%);;
+}
