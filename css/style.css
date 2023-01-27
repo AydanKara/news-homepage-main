@@ -60,10 +60,10 @@ header .navbar a:hover {
     gap: 25px;
 }
 .home .home-wrapper .home-wrapper-item:nth-child(1) {
-    flex: 5;
+    width: 66%;
 }
 .home .home-wrapper .home-wrapper-item:nth-child(2) {
-    flex: 3;
+    width: 34%;
 }
 .home .home-wrapper-item .home-wrapper-item-img img {
     width: 100%;
@@ -76,14 +76,14 @@ header .navbar a:hover {
 .home .home-wrapper-item-bottom .home-wrapper-item-bottom-left {
     font-size: 45px;
     font-weight: 700;
-    width: 45%;
+    width: 50%;
     line-height: 1;
 }
 .home .home-wrapper-item-bottom .home-wrapper-item-bottom-right{
     font-size: 13px;
     color: hsl(236, 13%, 42%);
     line-height: 1.5;
-    width: 55%;
+    width: 50%;
 }
 .home .home-wrapper .home-wrapper-item:nth-child(2) {
     background-color: hsl(240, 100%, 5%);
@@ -114,7 +114,7 @@ header .navbar a:hover {
 .blogs {
     padding: 0 7%;
     margin: 0 7%;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 .blogs .blogs-wrapper {
     display: flex;
@@ -169,8 +169,8 @@ header .navbar a:hover {
     align-items: center;
     padding: 0 7%;
     margin: 0 7%;
-    margin-top: 40px;
-    font-size: 14px;
+    margin-top: 30px;
+    font-size: 12px;
     letter-spacing: 1px;
 }
 .attribution .icons i {
