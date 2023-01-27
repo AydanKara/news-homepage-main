@@ -19,7 +19,12 @@
     font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 3px;
-} 
+}
+.btn:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
 /* ! header start */
 header {
     display: flex;
@@ -27,7 +32,7 @@ header {
     align-items: center;
     padding: 0 7%;
     margin: 0 7%;
-    margin-top: 2rem;
+    margin-top: 20px;
 }
 header .navbar {
     font-size: 14px;
@@ -47,7 +52,7 @@ header .navbar a:hover {
 .home {
     padding: 0 7%;
     margin: 0 7%;
-    margin-top: 2rem;
+    margin-top: 20px;
     display: flex;
 }
 .home .home-wrapper {
@@ -103,5 +108,78 @@ header .navbar a:hover {
 .home .home-wrapper-item-description .linie {
     border-top: 1px solid hsl(236, 13%, 42%)
 }
-
 /* ! home end */
+
+/* ! blogs start */
+.blogs {
+    padding: 0 7%;
+    margin: 0 7%;
+    margin-top: 30px;
+}
+.blogs .blogs-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    
+}
+.blogs .blogs-wrapper .blogs-wrapper-item {
+    display: flex;
+    width: 100%;
+}
+.blogs .blogs-wrapper .blogs-wrapper-item-img {
+    height: 100px;
+    width: 26%;
+}
+.blogs .blogs-wrapper .blogs-wrapper-item img {
+    
+}
+.blogs .blogs-wrapper .blogs-wrapper-item-desc {
+    width: 74%;
+    padding: 0 15px;
+    
+}
+.blogs .blogs-wrapper .blogs-wrapper-item-desc h3{
+    color: hsl(233, 8%, 79%);
+    font-size: 18px;
+    font-weight: 600;
+}
+.blogs .blogs-wrapper .blogs-wrapper-item-desc .item-title {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px 0;
+}
+.blogs .blogs-wrapper .blogs-wrapper-item-desc .item-title:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+.blogs .blogs-wrapper .blogs-wrapper-item-desc .paragraph {
+    font-size: 12px;
+    line-height: 1.7;
+    color: hsl(236, 13%, 42%);
+}
+.blogs .blogs-wrapper .blogs-wrapper-item img {
+    height: 100px;
+}
+/* ! blogs end */
+
+.attribution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 7%;
+    margin: 0 7%;
+    margin-top: 40px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.attribution .icons i {
+    margin-left: 5px;
+    font-size: 20px;
+    color: black;
+}
+.attribution .icons i:hover {
+    color: #0A58CA;
+}
+
+
