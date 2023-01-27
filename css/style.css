@@ -1,185 +1,180 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
 * {
-    font-family: 'Inter', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    transition: 0.2s ease;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 0.2s ease;
 }
 .btn {
-    background-color: hsl(5, 85%, 63%);
-    color: #fff;
-    padding: 10px 20px;
-    margin-top: 35px;
-    font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+  background-color: hsl(5, 85%, 63%);
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 35px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 .btn:hover {
-    color: white;
-    background-color: black;
-    cursor: pointer;
+  color: white;
+  background-color: black;
+  cursor: pointer;
 }
 /* ! header start */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 7%;
-    margin: 0 7%;
-    margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7%;
+  margin: 0 7%;
+  margin-top: 20px;
 }
 header .navbar {
-    font-size: 14px;
-    display: flex;
-    gap: 42px;
+  font-size: 14px;
+  display: flex;
+  gap: 42px;
 }
 header .navbar a {
-    color: hsl(236, 13%, 42%);
+  color: hsl(236, 13%, 42%);
 }
 header .navbar a:hover {
-    cursor: pointer;
-    color: hsl(0, 0%, 0%);;
+  cursor: pointer;
+  color: hsl(0, 0%, 0%);
 }
 /* ! header end */
 
 /* ! home start */
 .home {
-    padding: 0 7%;
-    margin: 0 7%;
-    margin-top: 20px;
-    display: flex;
+  padding: 0 7%;
+  margin: 0 7%;
+  margin-top: 20px;
+  display: flex;
 }
 .home .home-wrapper {
-    display: flex;
-    gap: 25px;
+  display: flex;
+  gap: 25px;
 }
 .home .home-wrapper .home-wrapper-item:nth-child(1) {
-    width: 66%;
+  width: 66%;
 }
 .home .home-wrapper .home-wrapper-item:nth-child(2) {
-    width: 34%;
+  width: 34%;
 }
 .home .home-wrapper-item .home-wrapper-item-img img {
-    width: 100%;
+  width: 100%;
 }
 .home .home-wrapper-item-bottom {
-    display: flex;
-    gap: 30px;
-    padding-top: 20px;
+  display: flex;
+  gap: 30px;
+  padding-top: 20px;
 }
 .home .home-wrapper-item-bottom .home-wrapper-item-bottom-left {
-    font-size: 45px;
-    font-weight: 700;
-    width: 50%;
-    line-height: 1;
+  font-size: 45px;
+  font-weight: 700;
+  width: 50%;
+  line-height: 1;
 }
-.home .home-wrapper-item-bottom .home-wrapper-item-bottom-right{
-    font-size: 13px;
-    color: hsl(236, 13%, 42%);
-    line-height: 1.5;
-    width: 50%;
+.home .home-wrapper-item-bottom .home-wrapper-item-bottom-right {
+  font-size: 13px;
+  color: hsl(236, 13%, 42%);
+  line-height: 1.5;
+  width: 50%;
 }
 .home .home-wrapper .home-wrapper-item:nth-child(2) {
-    background-color: hsl(240, 100%, 5%);
+  background-color: hsl(240, 100%, 5%);
 }
 .home .home-wrapper-item-description {
-    padding: 25px 20px;
+  padding: 25px 20px;
 }
 .home .home-wrapper-item-description h2 {
-    color: hsl(35, 77%, 62%);
-    padding-bottom: 25px;
+  color: hsl(35, 77%, 62%);
+  padding-bottom: 25px;
 }
 .home .home-wrapper-item-description .bold-paragraph {
-    color: hsl(36, 100%, 99%);
-    padding: 15px 0;
+  color: hsl(36, 100%, 99%);
+  padding: 15px 0;
 }
 .home .home-wrapper-item-description .paragraph {
-    color: hsl(233, 8%, 79%);
-    padding-bottom: 25px;
-    font-size: 12px;
-    line-height: 1.5;
+  color: hsl(233, 8%, 79%);
+  padding-bottom: 25px;
+  font-size: 12px;
+  line-height: 1.5;
 }
 .home .home-wrapper-item-description .linie {
-    border-top: 1px solid hsl(236, 13%, 42%)
+  border-top: 1px solid hsl(236, 13%, 42%);
 }
 /* ! home end */
 
 /* ! blogs start */
 .blogs {
-    padding: 0 7%;
-    margin: 0 7%;
-    margin-top: 25px;
+  padding: 0 7%;
+  margin: 0 7%;
+  margin-top: 25px;
 }
 .blogs .blogs-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
 }
 .blogs .blogs-wrapper .blogs-wrapper-item {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 .blogs .blogs-wrapper .blogs-wrapper-item-img {
-    height: 100px;
-    width: 26%;
-}
-.blogs .blogs-wrapper .blogs-wrapper-item img {
-    
+  height: 100px;
+  width: 26%;
 }
 .blogs .blogs-wrapper .blogs-wrapper-item-desc {
-    width: 74%;
-    padding: 0 15px;
-    
+  width: 74%;
+  padding: 0 15px;
 }
-.blogs .blogs-wrapper .blogs-wrapper-item-desc h3{
-    color: hsl(233, 8%, 79%);
-    font-size: 18px;
-    font-weight: 600;
+.blogs .blogs-wrapper .blogs-wrapper-item-desc h3 {
+  color: hsl(233, 8%, 79%);
+  font-size: 18px;
+  font-weight: 600;
 }
 .blogs .blogs-wrapper .blogs-wrapper-item-desc .item-title {
-    font-size: 14px;
-    font-weight: 700;
-    padding: 8px 0;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 8px 0;
 }
 .blogs .blogs-wrapper .blogs-wrapper-item-desc .item-title:hover {
-    color: hsl(5, 85%, 63%);
-    cursor: pointer;
+  color: hsl(5, 85%, 63%);
+  cursor: pointer;
 }
 .blogs .blogs-wrapper .blogs-wrapper-item-desc .paragraph {
-    font-size: 12px;
-    line-height: 1.7;
-    color: hsl(236, 13%, 42%);
+  font-size: 12px;
+  line-height: 1.7;
+  color: hsl(236, 13%, 42%);
 }
 .blogs .blogs-wrapper .blogs-wrapper-item img {
-    height: 100px;
+  height: 100px;
 }
 /* ! blogs end */
 
+/* ! footer start */
 .attribution {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 7%;
-    margin: 0 7%;
-    margin-top: 30px;
-    font-size: 12px;
-    letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 7%;
+  margin: 0 7%;
+  margin-top: 30px;
+  font-size: 12px;
+  letter-spacing: 1px;
 }
 .attribution .icons i {
-    margin-left: 5px;
-    font-size: 20px;
-    color: black;
+  margin-left: 5px;
+  font-size: 20px;
+  color: black;
 }
 .attribution .icons i:hover {
-    color: #0A58CA;
+  color: #0a58ca;
 }
-
-
+/* ! footer end */
