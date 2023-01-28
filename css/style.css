@@ -334,7 +334,6 @@ header .navbar a:hover {
   .blogs .blogs-wrapper {
     flex-wrap: wrap;
     height: 100%;
-    
   }
   .blogs .blogs-wrapper .blogs-wrapper-item {
     
@@ -381,5 +380,70 @@ header .navbar a:hover {
     padding: 0 1%;
     margin: 0 1%;
     margin-top: 30px;
+  }
+}
+@media (max-width: 376px) {
+  .header .navbar {
+    display: none;
+  }
+  .home .home-wrapper-item-bottom {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .home .home-wrapper-item .home-wrapper-item-img img {
+    height: 260px;
+  }
+  .home .home-wrapper-item-bottom .home-wrapper-item-bottom-left {
+    font-size: 42px;
+    font-weight: 700;
+    width: 100%;
+    line-height: 1.1;
+  }
+  .home .home-wrapper-item-bottom .home-wrapper-item-bottom-right {
+    font-size: 14px;
+    line-height: 1.4;
+    width: 100%;
+    position: relative;
+  }
+  .btn {
+    margin-top: 10px;
+    bottom: auto;
+  }
+  .home .home-wrapper .home-wrapper-item:nth-child(2) {
+    margin-top: 60px;
+  }
+  .blogs .blogs-wrapper .blogs-wrapper-item-img {
+    height: 150px;
+  }
+  .blogs .blogs-wrapper .blogs-wrapper-item-desc {
+    padding: 0 15px;
+  }
+  .blogs .blogs-wrapper .blogs-wrapper-item-desc h3 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .blogs .blogs-wrapper .blogs-wrapper-item-desc .item-title {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 6px 0;
+  }
+  .blogs .blogs-wrapper .blogs-wrapper-item-desc .paragraph {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .attribution {
+    margin-top: 30px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    flex-direction: column;
+  }
+  .attribution .footer {
+    text-align: center;
+  }
+  .attribution .footer .author {
+    
+  }
+  .attribution .icons i {
+    font-size: 16px;
   }
 }
