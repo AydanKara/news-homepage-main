@@ -9,7 +9,7 @@
   outline: none;
   border: none;
   text-decoration: none;
-  transition: 0.2s ease;
+  transition: 0.5s ease;
 }
 .btn {
   background-color: hsl(5, 85%, 63%);
@@ -169,7 +169,7 @@ header .navbar a:hover {
 /* ! blogs end */
 
 /* ! footer start */
-.attribution {
+.footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -179,12 +179,12 @@ header .navbar a:hover {
   font-size: 12px;
   letter-spacing: 1px;
 }
-.attribution .icons i {
+.footer .icons i {
   margin-left: 5px;
   font-size: 20px;
   color: black;
 }
-.attribution .icons i:hover {
+.footer .icons i:hover {
   color: #0a58ca;
 }
 /* ! footer end */
@@ -281,7 +281,7 @@ header .navbar a:hover {
     margin: 0 5%;
     margin-top: 25px;
   }
-  .attribution {
+  .footer {
     padding: 0 5%;
     margin: 0 5%;
     margin-top: 30px;
@@ -331,7 +331,7 @@ header .navbar a:hover {
     margin: 0 3%;
     margin-top: 25px;
   }
-  .attribution {
+  .footer {
     padding: 0 3%;
     margin: 0 3%;
     margin-top: 30px;
@@ -383,7 +383,7 @@ header .navbar a:hover {
     margin: 0 1%;
     margin-top: 25px;
   }
-  .attribution {
+  .footer {
     padding: 0 1%;
     margin: 0 1%;
     margin-top: 30px;
@@ -461,16 +461,16 @@ header .navbar a:hover {
     font-size: 14px;
     line-height: 1.5;
   }
-  .attribution {
-    margin-top: 30px;
+  .footer {
     font-size: 10px;
     letter-spacing: 1px;
     flex-direction: column;
-  }
-  .attribution .footer {
+    gap: 6px;
+    padding: 0 1.5%;
+    margin: 30px 20px 1.5% 1.5%;
     text-align: center;
   }
-  .attribution .icons i {
+  .footer .icons i {
     font-size: 16px;
   }
   header {
@@ -487,10 +487,5 @@ header .navbar a:hover {
     padding: 0 1.5%;
     margin: 0 1.5%;
     margin-top: 25px;
-  }
-  .attribution {
-    padding: 0 1.5%;
-    margin: 0 1.5%;
-    margin-top: 30px;
   }
 }

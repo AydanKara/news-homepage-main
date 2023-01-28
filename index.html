@@ -1,145 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Frontend Mentor | News homepage</title>
+  </head>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <title>Frontend Mentor | News homepage</title>
-</head>
+  <body>
+    <!--! header start  -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" alt="" />
+      </a>
+      <img
+        class="menu-list"
+        id="btn-menu"
+        src="./assets/images/icon-menu.svg"
+        alt=""
+      />
+      <nav class="navbar" id="sidebar">
+        <a href="#">Home</a>
+        <a href="#">New</a>
+        <a href="#">Popular</a>
+        <a href="#">Trending</a>
+        <a href="#">Categories</a>
+        <img
+          class="menu-close"
+          id="btn-close"
+          src="./assets/images/icon-menu-close.svg"
+          alt=""
+        />
+      </nav>
+    </header>
+    <!--! header end  -->
 
-<body>
-  <!--! header start  -->
-  <header class="header">
-    <a href="#" class="logo">
-      <img src="./assets/images/logo.svg" alt="" />
-    </a>
-    <img class="menu-list" id="btn-menu" src="./assets/images/icon-menu.svg" alt="">
-    <nav class="navbar" id="sidebar">
-      <a href="#">Home</a>
-      <a href="#">New</a>
-      <a href="#">Popular</a>
-      <a href="#">Trending</a>
-      <a href="#">Categories</a>
-      <img class="menu-close" id="btn-close" src="./assets/images/icon-menu-close.svg" alt="">
-    </nav>
-    
-  </header>
-  <!--! header end  -->
-
-  <!--! home section start -->
-  <section class="home">
-    <div class="home-wrapper">
-      <div class="home-wrapper-item">
-        <div class="home-wrapper-item-img">
-          <img src="./assets/images/image-web-3-desktop.jpg" alt="" />
+    <!--! home section start -->
+    <section class="home">
+      <div class="home-wrapper">
+        <div class="home-wrapper-item">
+          <div class="home-wrapper-item-img">
+            <img src="./assets/images/image-web-3-desktop.jpg" alt="" />
+          </div>
+          <div class="home-wrapper-item-bottom">
+            <div class="home-wrapper-item-bottom-left">
+              <p>The Bright Future of Web 3.0?</p>
+            </div>
+            <div class="home-wrapper-item-bottom-right">
+              <p>
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <button class="btn">Read more</button>
+            </div>
+          </div>
         </div>
-        <div class="home-wrapper-item-bottom">
-          <div class="home-wrapper-item-bottom-left">
-            <p>
-              The Bright
-              Future of
-              Web 3.0?
+        <div class="home-wrapper-item">
+          <div class="home-wrapper-item-description">
+            <h2>New</h2>
+            <p class="bold-paragraph">Hydrogen VS Electric Cars</p>
+            <p class="paragraph">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+            <hr class="linie" />
+            <p class="bold-paragraph">The Downsides of AI Artistry</p>
+            <p class="paragraph">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+            <hr class="linie" />
+            <p class="bold-paragraph">Is VC Funding Drying Up?</p>
+            <p class="paragraph">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
             </p>
           </div>
-          <div class="home-wrapper-item-bottom-right">
-            <p>
-              We dive into the next evolution of the web that claims to put
-              the power of the platforms back into the hands of the people.
-              But is it really fulfilling its promise?
+        </div>
+      </div>
+    </section>
+    <!--! home section end -->
+
+    <!--! blogs section start -->
+    <section class="blogs">
+      <div class="blogs-wrapper">
+        <div class="blogs-wrapper-item">
+          <div class="blogs-wrapper-item-img">
+            <img src="./assets/images/image-retro-pcs.jpg" alt="" />
+          </div>
+          <div class="blogs-wrapper-item-desc">
+            <h3>01</h3>
+            <p class="item-title">Reviving Retro PCs</p>
+            <p class="paragraph">
+              What happens when old PCs are given modern upgrades?
             </p>
-            <button class="btn">Read more</button>
+          </div>
+        </div>
+        <div class="blogs-wrapper-item">
+          <div class="blogs-wrapper-item-img">
+            <img src="./assets/images/image-top-laptops.jpg" alt="" />
+          </div>
+          <div class="blogs-wrapper-item-desc">
+            <h3>02</h3>
+            <p class="item-title">Top 10 Laptops of 2022</p>
+            <p class="paragraph">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </div>
+        <div class="blogs-wrapper-item">
+          <div class="blogs-wrapper-item-img">
+            <img src="./assets/images/image-gaming-growth.jpg" alt="" />
+          </div>
+          <div class="blogs-wrapper-item-desc">
+            <h3>03</h3>
+            <p class="item-title">The Growth of Gaming</p>
+            <p class="paragraph">
+              How the pandemic has sparked fresh opportunities.
+            </p>
           </div>
         </div>
       </div>
-      <div class="home-wrapper-item">
-        <div class="home-wrapper-item-description">
-          <h2>New</h2>
-          <p class="bold-paragraph">Hydrogen VS Electric Cars</p>
-          <p class="paragraph">
-            Will hydrogen-fueled cars ever catch up to EVs?
-          </p>
-          <hr class="linie" />
-          <p class="bold-paragraph">The Downsides of AI Artistry</p>
-          <p class="paragraph">
-            What are the possible adverse effects of on-demand AI image
-            generation?
-          </p>
-          <hr class="linie" />
-          <p class="bold-paragraph">Is VC Funding Drying Up?</p>
-          <p class="paragraph">
-            Private funding by VC firms is down 50% YOY. We take a look at
-            what that means.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--! home section end -->
+    </section>
+    <!--! blogs section end -->
 
-  <!--! blogs section start -->
-  <section class="blogs">
-    <div class="blogs-wrapper">
-      <div class="blogs-wrapper-item">
-        <div class="blogs-wrapper-item-img">
-          <img src="./assets/images/image-retro-pcs.jpg" alt="" />
-        </div>
-        <div class="blogs-wrapper-item-desc">
-          <h3>01</h3>
-          <p class="item-title">Reviving Retro PCs</p>
-          <p class="paragraph">
-            What happens when old PCs are given modern upgrades?
-          </p>
-        </div>
-      </div>
-      <div class="blogs-wrapper-item">
-        <div class="blogs-wrapper-item-img">
-          <img src="./assets/images/image-top-laptops.jpg" alt="" />
-        </div>
-        <div class="blogs-wrapper-item-desc">
-          <h3>02</h3>
-          <p class="item-title">Top 10 Laptops of 2022</p>
-          <p class="paragraph">
-            Our best picks for various needs and budgets.
-          </p>
-        </div>
-      </div>
-      <div class="blogs-wrapper-item">
-        <div class="blogs-wrapper-item-img">
-          <img src="./assets/images/image-gaming-growth.jpg" alt="" />
-        </div>
-        <div class="blogs-wrapper-item-desc">
-          <h3>03</h3>
-          <p class="item-title">The Growth of Gaming</p>
-          <p class="paragraph">
-            How the pandemic has sparked fresh opportunities.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--! blogs section end -->
-
-  <!--! footer end -->
-  <div class="attribution">
-    <p class="footer">
-      <p>Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      </p>
+    <!--! footer end -->
+    <div class="footer">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
       <p class="author">Coded by <strong>Aydan Karamehmed</strong></p>
       <p class="icons">
         <a href="https://github.com/AydanKara"><i class="bi bi-github"></i></a>
         <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.google.com/intl/de/gmail/about/"><i class="bi bi-envelope-at-fill"></i></a>
+        <a href="https://www.google.com/intl/de/gmail/about/"
+          ><i class="bi bi-envelope-at-fill"></i
+        ></a>
       </p>
-    </p>
-  </div>
-  <!--! footer end -->
+    </div>
+    <!--! footer end -->
 
-  <script src="./js/index.js"></script>
-</body>
-
+    <script src="./js/index.js"></script>
+  </body>
 </html>

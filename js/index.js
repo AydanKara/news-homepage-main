@@ -13,8 +13,18 @@ function sidebarFunc() {
         sidebar.style.right = "-100%";
     });
 
+    /* click outside start */
+    document.addEventListener("click", function (event) {
+        if (
+            !event.composedPath().includes(sidebar) &&
+            !event.composedPath().includes(btnOpenSidebar)
+        ) {
+            sidebar.style.right = "-100%";
+        }
+    });
+    /* click outside end */
 
-    
+
     //! header sidebar end
 }
 
