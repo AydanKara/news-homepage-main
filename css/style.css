@@ -35,9 +35,9 @@ header {
   padding: 0 7%;
   margin: 0 7%;
   margin-top: 20px;
+  position: relative;
 }
-.header .bi.bi-list {
-  font-size: 45px;
+.header .menu-list {
   display: none;
 }
 header .navbar {
@@ -388,9 +388,29 @@ header .navbar a:hover {
 }
 @media (max-width: 376px) {
   .header .navbar {
-    display: none;
+    flex-direction: column;
+    gap: 30px;
+    position: fixed;
+    top: 0;
+    right: -230px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: hsl(36, 100%, 99%);
+    height: 100vh;
+    z-index: 2;
+    padding: 100px 100px 30px 30px;
+    border-left: 1px solid black;
   }
-  .header .bi.bi-list {
+  .header .navbar a {
+    color: black;
+  }
+  .header .navbar .menu-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+  }
+  .header .menu-list {
     display: block;
   }
   .home .home-wrapper-item-bottom {
@@ -447,10 +467,27 @@ header .navbar a:hover {
   .attribution .footer {
     text-align: center;
   }
-  .attribution .footer .author {
-    
-  }
   .attribution .icons i {
     font-size: 16px;
+  }
+  header {
+    padding: 0 1.5%;
+    margin: 0 1.5%;
+    margin-top: 20px;
+  }
+  .home {
+    padding: 0 1.5%;
+    margin: 0 1.5%;
+    margin-top: 20px;
+  }
+  .blogs {
+    padding: 0 1.5%;
+    margin: 0 1.5%;
+    margin-top: 25px;
+  }
+  .attribution {
+    padding: 0 1.5%;
+    margin: 0 1.5%;
+    margin-top: 30px;
   }
 }
