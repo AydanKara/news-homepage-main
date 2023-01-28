@@ -52,6 +52,9 @@ header .navbar a:hover {
   cursor: pointer;
   color: hsl(0, 0%, 0%);
 }
+.header .navbar .menu-close {
+  display: none;
+}
 /* ! header end */
 
 /* ! home start */
@@ -405,10 +408,10 @@ header .navbar a:hover {
     color: black;
   }
   .header .navbar .menu-close {
+    display: block;
     position: absolute;
     top: 20px;
     right: 20px;
-
   }
   .header .menu-list {
     display: block;
