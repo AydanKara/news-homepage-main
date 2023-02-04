@@ -39,6 +39,7 @@ header {
 }
 .header .menu-list {
   display: none;
+  cursor: pointer;
 }
 header .navbar {
   font-size: 14px;
@@ -412,6 +413,7 @@ header .navbar a:hover {
     position: absolute;
     top: 20px;
     right: 20px;
+    cursor: pointer;
   }
   .header .menu-list {
     display: block;
